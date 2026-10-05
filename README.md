@@ -1,4 +1,4 @@
-# adaptive-trust-ids
+# ugaa-adaptive-trust
 
 Code for **"Reliability-Aware Human–AI Arbitration via Category-Specific Adaptive Trust for Intrusion Detection"** (submitted to *Cybersecurity*, Springer).
 
