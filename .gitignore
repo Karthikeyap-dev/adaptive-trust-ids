@@ -1,0 +1,14 @@
+# virtual environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# raw benchmark datasets (download from original sources)
+data/raw/
+*.parquet
+# large generated outputs live on Zenodo (results DOI), not in git
+code/outputs/*
+!code/outputs/README.md
+# human-study per-participant files (see consent)
+code/human_study/raw/
