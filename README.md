@@ -2,8 +2,8 @@
 
 Code for **"Reliability-Aware Human–AI Arbitration via Category-Specific Adaptive Trust for Intrusion Detection"** (submitted to *Cybersecurity*, Springer).
 
-- Code archive (this repository): DOI `10.5281/zenodo.XXXXXXX`
-- Results, seed logs and prediction files: DOI `10.5281/zenodo.YYYYYYY`
+- Code archive (this repository): DOI `10.5281/zenodo.23167578`
+- Results, seed logs and prediction files: DOI `10.5281/zenodo.23167703`
 - Licence: MIT
 
 ## Setup
@@ -26,12 +26,13 @@ All commands run from the `code/` folder unless stated otherwise.
 | Wilson CIs (Table 4) | `statistics/compute_uncertainty_intervals.py` | `uncertainty_intervals.json` |
 | Temporal-split check (§4.1) | `statistics/cicids_temporal_split.py` (needs raw CICIDS2017) | `cicids_temporal_split_rerun.json` |
 | Table 5, calibration paragraph | `statistics/cross_dataset_calibration.py`, `baselines/calibrate_confidence.py` | `cross_dataset_calibration.json`, `calibration_results.json` |
-| Fig 4, Fig 5 | `figures/fig4_fig5_reds.py` | `figures/fig4_*`, `figures/fig5_*` |
+| Fig 4 | `figures/fig4_fig5_reds.py` | `figures/fig4_*`, `figures/fig5_*` |
 | Fig 6 | `figures/fig6_trust_credible.py` | `figures/fig6_*` |
 | Tables 6, 8, 10 | `cd optimizer && python3 locked_eval_robust.py ../outputs/<predictions>.csv <config> 20` | `<config>_locked_eval_robust.csv/.json` |
 | Table 7 | `statistics/effect_sizes_robust.py` | `effect_sizes_robust.csv` |
 | Table 9 | `cd optimizer && python3 point_estimate_online.py` | `point_estimate_online.json` |
-| Fig 7, Table 12 | `cd optimizer && python3 delta_sweep_robust.py ...` then `--plot` | `*_delta_sweep_robust.csv`, `delta_sweep_robust.png` |
+| Fig 5, Fig 7 | `figures/fig5_fig7_final.py` | `figures/fig5_confusion_reds.*`, `figures/fig7_risk_workload.*` |
+| Table 12 | `cd optimizer && python3 delta_sweep_robust.py ...` | `*_delta_sweep_robust.csv`, `delta_sweep_robust.png` |
 | Prior sensitivity (§3.3) | `cd optimizer && python3 prior_sensitivity_online.py` | `unsw_rf_prior_sensitivity_online.json` |
 | Table 11 (AURC) | `statistics/risk_coverage_aurc.py` | `*_risk_coverage_aurc.json` |
 | Table 13 | `selective_feedback/selective_feedback.py` | `*_selective_feedback*.json` |
