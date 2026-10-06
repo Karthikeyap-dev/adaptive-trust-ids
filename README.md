@@ -1,6 +1,6 @@
 # ugaa-adaptive-trust
 
-Code for **"Reliability-Aware Human–AI Arbitration via Category-Specific Adaptive Trust for Intrusion Detection"** (submitted to *Cybersecurity*, Springer).
+Code for **"Reliability-Aware Human–AI Arbitration for Intrusion Detection under Selective Feedback"** (submitted to *Cybersecurity*, Springer).
 
 - Code archive (this repository): DOI `10.5281/zenodo.23167578`
 - Results, seed logs and prediction files: DOI `10.5281/zenodo.23167703`
